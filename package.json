@@ -1,0 +1,31 @@
+{
+  "name": "nextjs-trpc-hydration-issue",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tanstack/react-query-devtools": "^5.61.0",
+    "@tanstack/react-query": "^5.61.0",
+    "@trpc/client": "^11.0.0-rc.643",
+    "@trpc/react-query": "^11.0.0-rc.643",
+    "@trpc/server": "^11.0.0-rc.643",
+    "next": "^14.2.18",
+    "react-dom": "18.3.0-canary-01ab35a9a-20240228",
+    "react": "18.3.0-canary-01ab35a9a-20240228",
+    "superjson": "^2.2.1",
+    "tailwindcss": "^3.4.15",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.3",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^9.13.0",
+    "typescript": "^5.6.2"
+  }
+}
