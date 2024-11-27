@@ -1,7 +1,7 @@
 # Next.js + tRPC Hydration Issue
 
 This example repo shows an issue related to the `trpc` library when using it with `next.js`. It happens when calling `revalidatePath` on a page using `useSuspenseQuery`.
-The issue is reproducible when calling `void {query}.prefetch()` on a revalidated page is being dehydrated, but not hydrated client-side.
+The issue is reproducible when calling `void {query}.prefetch()` on a revalidated page and data is dehydrated, but not hydrated client-side.
 
 ## Setup
 
