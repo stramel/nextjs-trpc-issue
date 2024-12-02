@@ -6,9 +6,6 @@ export const t = initTRPC
   .context()
   .meta()
   .create({
-    defaultMeta: {
-      allowAnonymousSC: false,
-    },
     errorFormatter({ error, shape }) {
       return {
         ...shape,
